@@ -27,7 +27,7 @@ or for an alternative method, download fast.sh, place it in your "downloads" fol
 and just wait!
 
 # Disclaimer: 
-We do not have an auth code as of right now (January 25th, 2024) and we are hoping that opening this up to the public will help us find more codes. This is not the final product, just a beta! Also, don't bother reporting this to Google as they won't care.
+We do not have an auth code as of right now (January 25th, 2024) and we are hoping that opening this up to the public will help us find more codes. This is not the final product, just a beta! Also, don't bother reporting this to Google as they won't care ever.
 
 # Credits
 krossystem - developing the bruteforcer, testing, pioneering the idea of using RMA unlocks, researching the CR50 and RMA unlock, creating Whelement
