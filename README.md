@@ -33,4 +33,4 @@ krossystem - developing the bruteforcer, testing, pioneering the idea of using R
 
 TheTechFrog / TheSpiritOfDark - building shims, implimenting the brute forcer into shims, also researching the CR50 and RMA unlock 
 
-CoolObivion759 - Creating Whale INC, testing, researching
+CoolObivion759 - testing, researching, creating Whale, Inc. (Whelement members are not associated with wh4le in any way, shape, or form)
