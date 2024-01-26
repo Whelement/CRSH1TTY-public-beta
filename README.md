@@ -1,4 +1,6 @@
-```
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Whelement_CRSH1TTY&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Whelement_CRSH1TTY)
+![CRSH1TTY logo](/Chrome_OS_2015LOLOLOLv2.png)
+<!---```
  .d8888b.  8888888b.   .d8888b.  888    888  d888  88888888888 88888888888 Y88b   d88P 
 d88P  Y88b 888   Y88b d88P  Y88b 888    888 d8888      888         888      Y88b d88P  
 888    888 888    888 Y88b.      888    888   888      888         888       Y88o88P   
@@ -7,7 +9,7 @@ d88P  Y88b 888   Y88b d88P  Y88b 888    888 d8888      888         888      Y88b
 888    888 888 T88b         "888 888    888   888      888         888         888     
 Y88b  d88P 888  T88b  Y88b  d88P 888    888   888      888         888         888     
  "Y8888P"  888   T88b  "Y8888P"  888    888 8888888    888         888         888    
-```
+```-->
 
 
 # The exploit for the truly desperate
