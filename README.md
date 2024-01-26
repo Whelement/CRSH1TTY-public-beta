@@ -18,6 +18,8 @@ If you get an auth code, create an issue with the related info, or DM @unrealgam
 
 When in doubt, just use fast.sh
 
+please use vt2 instead of a shim.
+
 If you have wifi, run `curl -Ls https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/fast.sh | bash`
 
 To build a shim with the script, download [https://github.com/MercuryWorkshop/sh1mmer/tree/beautifulworld](https://github.com/MercuryWorkshop/sh1mmer/tree/beautifulworld), unzip the file if you downloaded it that way, then run go to sh1mmer/wax/sh1mmer_legacy/root/usr/sbin, download your script of choice from this repo, and replace the file already in the sbin folder with the one you downloaded (make sure it's named `factory_install.sh`), then run wax_legacy.sh in sh1mmer/wax
