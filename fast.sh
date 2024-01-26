@@ -1,29 +1,32 @@
 #!/bin/bash
 
 generate_random_code() {
-    length=$1
+    length=8
     characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-    random_code=$(cat /dev/urandom | tr -dc "$characters" | fold -w "$length" | head -n 1)
-    echo "$random_code"
+    code=$(tr -cd "$characters" < /dev/urandom | head -c "$length")
 }
 
 gsctoolrma() {
-    gsctool -t -r "$random_code"
+    gsctool -t -r "$code"
 }
 
 main() {
-    while true; do
-        code=$(generate_random_code 8)
-        echo "trying code $code"
+    while :; do
+        generate_random_code
+        echo "Trying the code $code"
         gsctoolrma
         if [ $? -eq 0 ]; then
-            echo "correct code $code"
-            /usr/share/vboot/bin/set_gbb_flags.sh 0x8090
-            echo "correct code $code"
-            /bin/bash
+            echo "Correct code is $code"
+            read -p "Write down your auth code or take a picture and press Enter to continue"
+            sleep 2
+            echo "Let's check if wp is actually off"
+            sleep 3
+            flashrom -p host --wp-status
+            sleep 3
+            echo "DM @krossystem about this on Discord"
             break
         else
-            echo "failed"
+            echo "Failed, this is a bug, please report"
         fi
     done
 }
