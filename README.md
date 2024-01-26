@@ -15,7 +15,7 @@ If you get an auth code, create an issue with the related info, or DM @crossyste
 
 # Instructions:
 On an UNENROLLED CHROMEBOOK IN DEVMODE with WP ON,
-Download fast.sh, place it in your "downloads" folder, then go to VT2 (ctrl + alt + ->) and run 
+download fast.sh, place it in your "downloads" folder, then go to VT2 (ctrl + alt + ->) and run 
 ```cd /home/user/chronos/Downloads && sudo bash fast.sh```
 and just wait!
 
