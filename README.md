@@ -15,7 +15,9 @@ If you get an auth code, create an issue with the related info, or if you want t
 
 # Instructions:
 On an UNENROLLED CHROMEBOOK IN DEVMODE with WP ON,
-run this command in VT2: ```cd; curl -LOk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/fast.sh && bash fast.sh```
+run this command in VT2: 
+
+```cd; curl -LOk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/fast.sh && bash fast.sh```
 
 or for an alternative method, download fast.sh, place it in your "downloads" folder, and run this command in VT2:
 
