@@ -11,12 +11,16 @@
 
 # the exploit for the truly desperate
 Disable WP on CR50 devices without opening it, just requires a chromebook in devmode and a ton of time.
-If you get an auth code, create an issue with the related info, or DM @crossystem on discord
+If you get an auth code, create an issue with the related info, or if you want to, send a DM to @krossystem or @thetechfrog on discord
 
 # Instructions:
 On an UNENROLLED CHROMEBOOK IN DEVMODE with WP ON,
-download fast.sh, place it in your "downloads" folder, then go to VT2 (ctrl + alt + ->) and run 
-```cd /home/user/chronos/Downloads && sudo bash fast.sh```
+run this command in VT2: ```cd; curl -LOk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/fast.sh && bash fast.sh```
+
+or for an alternative method, download fast.sh, place it in your "downloads" folder, and run this command in VT2:
+
+```cd /home/user/chronos/Downloads && bash fast.sh```
+
 and just wait!
 
 # Disclaimer: 
