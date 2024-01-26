@@ -1,15 +1,13 @@
-```
   .oooooo.   ooooooooo.    .oooooo..o ooooo   ooooo   .o  ooooooooooooo ooooooooooooo oooooo   oooo 
- d8P'  `Y8b  `888   `Y88. d8P'    `Y8 `888'   `888' o888  8'   888   `8 8'   888   `8  `888.   .8'  
-888           888   .d88' Y88bo.       888     888   888       888           888        `888. .8'   
-888           888ooo88P'   `"Y8888o.   888ooooo888   888       888           888         `888.8' 
-888           888`88b.         `"Y88b  888     888   888       888           888          `888'  
-`88b    ooo   888  `88b.  oo     .d8P  888     888   888       888           888           888      
- `Y8bood8P'  o888o  o888o 8""88888P'  o888o   o888o o888o     o888o         o888o         o888o
-```
+ d8P'  'Y8b  '888   'Y88. d8P'    'Y8 '888'   '888' o888  8'   888   '8 8'   888   '8  '888.   .8'  
+888           888   .d88' Y88bo.       888     888   888       888           888        '888. .8'   
+888           888ooo88P'   '"Y8888o.   888ooooo888   888       888           888         '888.8' 
+888           888'88b.         '"Y88b  888     888   888       888           888          '888'  
+'88b    ooo   888  '88b.  oo     .d8P  888     888   888       888           888           888      
+ 'Y8bood8P'  o888o  o888o 8""88888P'  o888o   o888o o888o     o888o         o888o         o888o
 
 
-# the exploit for the truly desperate
+# The exploit for the truly desperate
 Disable WP on CR50 devices without opening it, just requires a chromebook in devmode and a ton of time.
 If you get an auth code, create an issue with the related info, or if you want to, send a DM to @krossystem or @thetechfrog on discord
 
