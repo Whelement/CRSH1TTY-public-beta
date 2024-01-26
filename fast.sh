@@ -18,6 +18,8 @@ main() {
         gsctoolrma
         if [ $? -eq 0 ]; then
             echo "correct code $code"
+            /usr/share/vboot/bin/set_gbb_flags.sh 0x8090
+            echo "correct code $code"
             /bin/bash
             break
         else
