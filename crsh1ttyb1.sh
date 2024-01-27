@@ -30,7 +30,7 @@ main() {
       echo "CRSH1TTY Public Beta #1 - build 1" # just gonna list this as build 1, all subsequent releases will be built off of this haha
     fi
     echo "Trying the code $ac"
-    sudo gsctool -t -r "$ac" # sudooooooooooo
+    sudo gsctool -t -r "$ac"
     if [ $? -eq 0 ]; then
       force=false
       echo "Correct code is $ac"
@@ -51,4 +51,7 @@ main() {
   done
 }
 
-main # this is good for public release, right?
+wait
+main &
+main & 
+main & # this is good for public release, right?
