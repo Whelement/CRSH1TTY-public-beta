@@ -1,4 +1,4 @@
-[![Discord](https://img.shields.io/discord/1185734208065380455?link=https%3A%2F%2Fdiscord.gg%2FBK853xQSrg)](https://discord.gg/BK853xQSrg)
+[![Discord](https://img.shields.io/discord/1185734208065380455?link=https%3A%2F%2Fdiscord.gg%2FBK853xQSrg)](https://discord.gg/BK853xQSrg)![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Whelement/CRSH1TTY-public-beta)![GitHub issues](https://img.shields.io/github/issues/Whelement/CRSH1TTY-public-beta)![GitHub contributors](https://img.shields.io/github/contributors/Whelement/CRSH1TTY-public-beta)![GitHub pull requests](https://img.shields.io/github/issues-pr/Whelement/CRSH1TTY-public-beta)
 ![CRSH1TTY logo](/logo.png)
 <!---```
   .oooooo.   ooooooooo.    .oooooo..o ooooo   ooooo   .o  ooooooooooooo ooooooooooooo oooooo   oooo 
