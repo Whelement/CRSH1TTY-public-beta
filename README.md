@@ -15,12 +15,11 @@ Disable WP on CR50 devices without opening it, just requires a chromebook in dev
 If you get an auth code, create an issue with the related info, or if you want to, send a DM to @krossystem or @thetechfrog on discord
 
 # Instructions:
-On an UNENROLLED CHROMEBOOK IN DEVMODE with WP ON,
-Download crsh1ttyb1.sh, place it in your "downloads" folder, and run this command in VT2 or Crosh (if you have sudo):
+On an UNENROLLED CHROMEBOOK IN DEVMODE with WP AND WIFI ON run
 
-```cd /home/user/chronos/Downloads && sudo bash crsh1ttyb1.sh```
+```cd; curl -LOk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/crsh1ttyb1.sh && bash crsh1ttyb1.sh```
 
-and just wait!
+in vt2, and just wait!
 
 # Disclaimer: 
 We do not have an auth code as of right now (January 27th, 2024) and we are hoping that opening this up to the public will help us find more codes. This is not the final product, just a beta! Also, don't bother reporting this to Google as they won't care.
