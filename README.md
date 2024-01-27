@@ -1,4 +1,4 @@
-![CRSH1TTY logo](/logo)
+![CRSH1TTY logo](/logo.png)
 <!---```
   .oooooo.   ooooooooo.    .oooooo..o ooooo   ooooo   .o  ooooooooooooo ooooooooooooo oooooo   oooo 
  d8P'  `Y8b  `888   `Y88. d8P'    `Y8 `888'   `888' o888  8'   888   `8 8'   888   `8  `888.   .8'  
