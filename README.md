@@ -1,4 +1,4 @@
-![Discord](https://img.shields.io/discord/1184279801335390229)
+![Discord](https://img.shields.io/discord/1185734208065380455)
 ![CRSH1TTY logo](/logo.png)
 <!---```
   .oooooo.   ooooooooo.    .oooooo..o ooooo   ooooo   .o  ooooooooooooo ooooooooooooo oooooo   oooo 
