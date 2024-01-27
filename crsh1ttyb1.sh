@@ -4,7 +4,7 @@
 # patch notes:
 # - none, check back next build (few days / hours)
 
-force=true
+force=true # why did i name it this lmfaooo
 
 if grep -q "warning: script from noexec mount" "$0"; then
     echo "ignore that warning ^"
@@ -23,14 +23,14 @@ generate_code() {
 }
 
 main() {
-  while $force; do
+  while $force; do 
     generate_code
     if [ "$fast" != "2" ]; then
       clear
       echo "CRSH1TTY Public Beta #1 - build 1" # just gonna list this as build 1, all subsequent releases will be built off of this haha
     fi
     echo "Trying the code $ac"
-    gsctool -t -r "$ac"
+    sudo gsctool -t -r "$ac" # sudooooooooooo
     if [ $? -eq 0 ]; then
       force=false
       echo "Correct code is $ac"
@@ -41,7 +41,11 @@ main() {
       sleep 3
       crossystem wpsw_cur # more convenient than flashrom, i swear!!!
       sleep 3
-      echo "DM @crossystem about this on Discord and send her the picture"
+      echo "DM @crossystem about this on Discord and send her the picture."
+      sleep 2
+      echo "Opening a bash shell for unenrolling..."
+      sleep 1
+      sudo bash # for osama :3
       break
     fi
   done
