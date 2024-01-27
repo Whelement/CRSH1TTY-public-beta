@@ -17,7 +17,8 @@ If you get an auth code, create an issue with the related info, or if you want t
 # Instructions:
 On an UNENROLLED CHROMEBOOK IN DEVMODE with WP AND WIFI ON run
 
-```cd; curl -LOk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/crsh1ttyb1.sh && bash crsh1ttyb1.sh```
+```curl https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/crsh1ttyb1.sh -o ./crsh1ttyb1.sh```
+```bash ./crsh1ttyb1.sh```
 
 in vt2, and just wait!
 
