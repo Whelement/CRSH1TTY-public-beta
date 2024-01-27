@@ -35,4 +35,6 @@ TheTechFrog / TheSpiritOfDark - building shims, implimenting the brute forcer in
 
 CoolObivion759 - testing, researching, creating Whale, Inc. (Whelement members are not associated with wh4le in any way, shape, or form)
 
+Osama (yes, that one) - Idea of running multiple processes to speed it up
+
 Join our discord server! https://discord.gg/BK853xQSrg
