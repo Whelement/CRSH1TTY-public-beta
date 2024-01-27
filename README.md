@@ -12,12 +12,13 @@
 
 # The exploit for the truly desperate
 Disable WP on CR50 devices without opening it, just requires a chromebook in devmode and a ton of time.
-If you get an auth code, create an issue with the related info, or if you want to, send a DM to @krossystem or @thetechfrog on discord
+If you get an auth code, create an issue with the related info, or if you want to, send a DM to @crossystem or @thetechfrog on discord
 
 # Instructions:
-On an UNENROLLED CHROMEBOOK IN DEVMODE with WP AND WIFI ON run
+On an UNENROLLED CHROMEBOOK IN DEVMODE with WP and WIFI ON run
 
 ```curl https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/crsh1ttyb1.sh -o ./crsh1ttyb1.sh```
+
 ```bash ./crsh1ttyb1.sh```
 
 in vt2, and just wait!
