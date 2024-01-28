@@ -33,7 +33,7 @@ main() {
     sudo gsctool -t -r "$ac"
     if [ $? -eq 0 ]; then
       force=false
-      echo "Correct code is $ac"
+      echo "FOUND IT! Correct code is $ac"
       sleep 1
       read -p "Write down your auth code or take a picture and press enter to continue"
       sleep 2
