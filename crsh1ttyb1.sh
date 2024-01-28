@@ -1,12 +1,13 @@
 #!/bin/bash
+
+# Check if gcstool command is available
+if command -v gcstool &> /dev/null; then
+    echo "gcstool is available. Continuing..."
 # CRSH1TTY BUILD 1 / BETA #1
 
 # patch notes:
 # - none, check back next build (few days / hours)
 
-if [ -f /etc/chrome_dev.conf ]; then
-    echo "You are on ChromeOS. Continuing..."
-    
 force=true # why did i name it this lmfaooo
 
 if grep -q "warning: script from noexec mount" "$0"; then
@@ -59,6 +60,6 @@ main &
 main & 
 main & # this is good for public release, right?
 else
-    echo "You are not on ChromeOS. Exiting..."
+    echo "gcstool is not available. Exiting..."
     exit 1
 fi
