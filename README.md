@@ -39,4 +39,5 @@ CoolObivion759 - testing, researching, creating Whale, Inc. (Whelement members a
 Windows XP - The logo for CRSH1TTY
 
 boeing 747 - emotional support and motivation
+
 Join our discord server! https://discord.gg/BK853xQSrg
