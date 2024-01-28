@@ -10,6 +10,7 @@
  `Y8bood8P'  o888o  o888o 8""88888P'  o888o   o888o o888o     o888o         o888o         o888o
 ```-->
 
+ignore Osama's fork of this!! he stole our ideas :3
 
 # The exploit for the truly desperate
 Disable WP on CR50 devices without opening it, just requires a chromebook in devmode and a ton of time.
