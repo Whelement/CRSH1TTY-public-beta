@@ -45,7 +45,7 @@ main() {
       sleep 2
       echo "Opening a bash shell for unenrolling..."
       sleep 1
-      sudo bash # for osama :3
+      sudo bash
       break
     fi
   done
