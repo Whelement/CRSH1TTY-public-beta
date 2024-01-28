@@ -1,31 +1,5 @@
 #!/bin/bash
 
-# Check if gcstool command is available
-if command -v gcstool &> /dev/null; then
-    echo "gcstool is available. Continuing..."
-# CRSH1TTY BUILD 1 / BETA #1
-
-# patch notes:
-# - none, check back next build (few days / hours)
-
-force=true # why did i name it this lmfaooo
-
-if grep -q "warning: script from noexec mount" "$0"; then
-    echo "ignore that warning ^"
-fi
-
-read -p "do you want to clear the console each time it tries a code? (y/n): " answer && { [ "$answer" == "y" ] && fast=1 || fast=2; }
-
-generate_code() {
-  characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-  code_length=8
-
-  ac=""
-  for ((j=0; j<code_length; j++)); do
-    ac+=${characters:$((RANDOM%${#characters})):1}
-  done
-}
-
 main() {
   while $force; do 
     generate_code
@@ -52,6 +26,32 @@ main() {
       sudo bash
       break
     fi
+  done
+}
+
+# Check if gcstool command is available
+if command -v gcstool &> /dev/null; then
+    echo "gcstool is available. Continuing..."
+# CRSH1TTY BUILD 1 / BETA #1
+
+# patch notes:
+# - none, check back next build (few days / hours)
+
+force=true # why did i name it this lmfaooo
+
+if grep -q "warning: script from noexec mount" "$0"; then
+    echo "ignore that warning ^"
+fi
+
+read -p "do you want to clear the console each time it tries a code? (y/n): " answer && { [ "$answer" == "y" ] && fast=1 || fast=2; }
+
+generate_code() {
+  characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  code_length=8
+
+  ac=""
+  for ((j=0; j<code_length; j++)); do
+    ac+=${characters:$((RANDOM%${#characters})):1}
   done
 }
 
