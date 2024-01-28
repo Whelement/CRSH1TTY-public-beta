@@ -46,6 +46,6 @@ main() {
 }
 
 wait
-for ((i=1;i<=processamount;i++)); do
+for ((i=0;i<=processamount;i++)); do
     main &
 done
