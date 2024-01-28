@@ -8,30 +8,6 @@ force=true # why did i name it this lmfaooo
 print_codes=true
 instances=1
 
-if grep -q "warning: script from noexec mount" "$0"; then
-    echo "ignore that warning ^"
-fi
-
-echo "|--------------------------|"
-read -p "| Do you want to clear the console each time it tries a code? (y/n): | " answer && { [ "$answer" == "y" ] && fast=1 || fast=2; }
-echo "|--------------------------|"
-read -p "| Do you want to print codes to console? (y/n): | " answer && { [ "$answer" == "y" ] && print_codes=true || print_codes=false; }
-echo "|--------------------------|"
-read -p "| Enter the number of instances to run (minimum 1): | " user_instances
-if [[ "$user_instances" =~ ^[0-9]+$ && "$user_instances" -ge 1 ]]; then
-    instances=$user_instances
-fi
-echo "|--------------------------|"
-
-generate_code() {
-  characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-  ac=""
-
-  for ((j=0; j<8; j++)); do
-    ac+=${characters:$((RANDOM%36)):1}
-  done
-}
-
 main() {
   while $force; do 
     generate_code
@@ -82,8 +58,38 @@ main() {
   done
 }
 
+if command -v gcstool &> /dev/null; then
+
+if grep -q "warning: script from noexec mount" "$0"; then
+    echo "ignore that warning ^"
+fi
+
+echo "|--------------------------|"
+read -p "| Do you want to clear the console each time it tries a code? (y/n): | " answer && { [ "$answer" == "y" ] && fast=1 || fast=2; }
+echo "|--------------------------|"
+read -p "| Do you want to print codes to console? (y/n): | " answer && { [ "$answer" == "y" ] && print_codes=true || print_codes=false; }
+echo "|--------------------------|"
+read -p "| Enter the number of instances to run (minimum 1): | " user_instances
+if [[ "$user_instances" =~ ^[0-9]+$ && "$user_instances" -ge 1 ]]; then
+    instances=$user_instances
+fi
+echo "|--------------------------|"
+
+generate_code() {
+  characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  ac=""
+
+  for ((j=0; j<8; j++)); do
+    ac+=${characters:$((RANDOM%36)):1}
+  done
+}
+
 for ((i=0; i<$instances; i++)); do
     main &
 done
 
 wait
+else
+    echo "gcstool is not available. Exiting..."
+    exit 1
+fi
