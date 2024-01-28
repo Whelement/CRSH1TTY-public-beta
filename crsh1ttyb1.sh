@@ -25,11 +25,10 @@ echo "|--------------------------|"
 
 generate_code() {
   characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-  code_length=8
-
   ac=""
-  for ((j=0; j<code_length; j++)); do
-    ac+=${characters:$((RANDOM%${#characters})):1}
+
+  for ((j=0; j<8; j++)); do
+    ac+=${characters:$((RANDOM%36)):1}
   done
 }
 
