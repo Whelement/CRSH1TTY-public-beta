@@ -22,6 +22,8 @@ main() {
       echo "DM @crossystem about this on Discord and send her the picture."
       sleep 2
       echo "Opening a bash shell for unenrolling..."
+      printf 'echo "Unenrolling..."\nflashrom --wp-disable\nflashrom -p ec --wp-disable\nsudo bash /usr/share/vboot/bin/set_gbb_flags.sh 0x80b0\nfutility gbb --set --flash --flags=0x80b0\ncrossystem block_devmode=0\nvpd -i RW_VPD -d block_devmode -d check_enrollment \ncryptohome --action=remove_firmware_management_parameters\necho "attempting unfog"\ntpm_manager_client take_ownership\nchromeos-tpm-recovery'>unenroll.sh
+      echo "A unenroll.sh file has been dropped, use bash unenroll.sh to unenroll"
       sleep 1
       sudo bash
       break
