@@ -56,9 +56,9 @@ main() {
         echo "Trying the code $ac"
     else
         ((count++))
-        if [ "$count" -eq 1000 ]; then
+        if [ "$count" -eq 10000 ]; then
             count=0
-            echo "Generated 1000 codes, please check progress."
+            echo "Generated 10000 codes, please check progress."
         fi
     fi
     sudo gsctool -t -r "$ac"
