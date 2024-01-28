@@ -31,7 +31,7 @@ main() {
 
 # Check if gcstool command is available
 if command -v gcstool &> /dev/null; then
-    echo "gcstool is available. Continuing..."
+    # echo "gcstool is available. Continuing..."
 # CRSH1TTY BUILD 1 / BETA #1
 
 # patch notes:
