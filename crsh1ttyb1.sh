@@ -4,6 +4,9 @@
 # patch notes:
 # - none, check back next build (few days / hours)
 
+if [ -f /etc/chrome_dev.conf ]; then
+    echo "You are on ChromeOS. Continuing..."
+    
 force=true # why did i name it this lmfaooo
 
 if grep -q "warning: script from noexec mount" "$0"; then
@@ -55,3 +58,7 @@ wait
 main &
 main & 
 main & # this is good for public release, right?
+else
+    echo "You are not on ChromeOS. Exiting..."
+    exit 1
+fi
