@@ -32,7 +32,7 @@ We do not have an auth code as of right now, and we are hoping that opening this
 # Credits
 crossystem - developing the bruteforcer, testing, pioneering the idea of using RMA unlocks, researching the CR50 and RMA unlock, creating Whelement, writes all of the comments
 
-TheTechFrog / TheSpiritOfDark - building shims, implimenting the brute forcer into shims, also researching the CR50 and RMA unlock 
+TheTechFrog / TheSpiritOfDark - building shims, implimenting the brute forcer into shims, also researching the CR50 and RMA unlock, maintaining the github, looking into alternet methods of CRSH1TTY 
 
 CoolObivion759 - testing, researching, creating Whale, Inc. (Whelement members are not associated with wh4le in any way, shape, or form)
 
