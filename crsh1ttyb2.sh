@@ -90,6 +90,5 @@ done
 
 wait
 else
-    echo "gcstool is not available. Exiting..."
-    exit 1
+    echo ""
 fi
