@@ -1,5 +1,5 @@
 #!/bin/bash
-# CRSH1TTY BUILD 1 / BETA #1
+# CRSH1TTY BUILD 2 / BETA #2
 
 # patch notes:
 # - none, check back next build (few days / hours)
@@ -13,7 +13,7 @@ main() {
     generate_code
     if [ "$fast" != "2" ]; then
       clear
-      echo "CRSH1TTY Public Beta #1 - build 1" # just gonna list this as build 1, all subsequent releases will be built off of this haha
+      echo "CRSH1TTY Public Beta #2 - build 2"
       echo "
         @@@@        
     @@@@@@@@@@@@    
