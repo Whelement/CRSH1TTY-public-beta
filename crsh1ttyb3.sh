@@ -28,6 +28,7 @@ main() {
 }
 
 read -rp "WARNING! You cannot terminate the script if you run 6 or more subprocesses!
+However, I recommend running 50-200 subprocesses, for maximum efficiency.
 Enter the number of subprocesses to run: " sub
 
 main "$sub"
