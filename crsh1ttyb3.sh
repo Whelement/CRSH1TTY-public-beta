@@ -1,5 +1,9 @@
 #!/bin/bash
 
+gbb() {
+/usr/share/vboot/bin/set_gbb_flags.sh 0x8000
+}
+
 gencode() {
     characters="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
     code_length=8
@@ -10,7 +14,9 @@ process() {
     while true; do
         gencode
         sudo gsctool -t -r "$ac" && {
-            echo "Auth code found"
+            echo "Auth code found, sleeping for 10 seconds before setting flags"
+            sleep 10
+            gbb
             sudo bash
         }
     done
