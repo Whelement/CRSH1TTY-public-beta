@@ -1,7 +1,7 @@
 #!/bin/bash
 
 gbb() {
-/usr/share/vboot/bin/set_gbb_flags.sh 0x8090
+/usr/share/vboot/bin/set_gbb_flags.sh 0x80b0
 }
 
 gencode() {
