@@ -16,6 +16,8 @@
 Disable WP on CR50 devices without opening it, just requires a chromebook in devmode and a ton of time.
 If you get an auth code, create an issue with the related info, or even better, send a DM to @crossystem or @thetechfrog on discord
 
+Before you say that this is stupid and it ain't gonna work, this was meant for people that lack the skills to disable WP or just can't (yes, people can't open up their chromebook). Also, if it's going to make your chromebook laggy just leave it on standby. It's better to bruteforce the code then just not do anything
+
 # Instructions:
 On an **UNENROLLED CHROMEBOOK** IN DEVMODE with WP and WIFI ON run
 ```
