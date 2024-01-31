@@ -15,7 +15,7 @@ process() {
     while true; do
         gencode
         sudo gsctool -t -r "$ac" && {
-            echo "Auth code found, sleeping for 10 seconds before unenrolling, removing the fog, and setting gbb flags."
+            echo "Auth code found, sleeping for 10 seconds before setting GBB flags to ignore FWMP"
             sleep 10
             unenroll
             sudo bash
