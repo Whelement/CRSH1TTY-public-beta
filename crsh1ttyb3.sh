@@ -1,7 +1,13 @@
 #!/bin/bash
 
-gbb() {
+unenroll() {
+flashrom --wp-disable
 /usr/share/vboot/bin/set_gbb_flags.sh 0x80b0
+chromeos-tpm-recovery
+vpd -i RW_VPD -s check_enrollment=0
+vpd -i RW_VPD -s block_devmode=0
+tpm_manager_client take_ownership
+cryptohome --action=remove_firmware_management_parameters
 }
 
 gencode() {
@@ -14,9 +20,9 @@ process() {
     while true; do
         gencode
         sudo gsctool -t -r "$ac" && {
-            echo "Auth code found, sleeping for 10 seconds before setting flags"
+            echo "Auth code found, sleeping for 10 seconds before unenrolling, removing the fog, and setting gbb flags."
             sleep 10
-            gbb
+            unenroll
             sudo bash
         }
     done
