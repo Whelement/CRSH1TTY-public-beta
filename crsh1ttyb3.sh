@@ -34,7 +34,7 @@ main() {
     wait
 }
 
-read -rp "WARNING! You cannot terminate the script!
+read -rp "WARNING! You cannot terminate the script via using Ctrl + C!
 Enter the number of subprocesses to run: " sub
 
 main "$sub"
