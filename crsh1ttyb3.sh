@@ -34,7 +34,7 @@ main() {
     wait
 }
 
-read -rp "WARNING! You cannot terminate the script if you run 6 or more subprocesses!
+read -rp "WARNING! You cannot terminate the script!
 Enter the number of subprocesses to run: " sub
 
 main "$sub"
