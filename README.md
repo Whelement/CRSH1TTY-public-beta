@@ -12,6 +12,8 @@
 
 <!---ignore Osama-->
 
+<!--pro tip: this will work within 1 googol years-->
+
 # The exploit for the truly desperate
 Disable WP on CR50 devices without opening it, just requires a chromebook in devmode and a ton of time.
 If you get an auth code, create an issue with the related info, or even better, send a DM to @crossystem or @thetechfrog on discord
