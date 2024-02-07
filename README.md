@@ -19,11 +19,11 @@ If you get an auth code, create an issue with the related info, or even better, 
 Before you say that this is stupid and it ain't gonna work, this was meant for people that lack the skills to disable WP or just can't (yes, people can't open up their chromebook). Also, if it's going to make your chromebook laggy just leave it on standby. It's better to bruteforce the code then just not do anything. The exploit is literally dubbed "CRSH1TTY - The exploit for the truly desperate", deal with it.
 
 # Instructions:
-On an **UNENROLLED CHROMEBOOK** IN DEVMODE with WP and WIFI ON run
+On a Chromebook with WP and WIFI ON run
 ```
 cd /home/chronos/user/Downloads && curl -Lk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/crsh1ttyb3.sh -o ./crsh1ttyb3.sh && bash ./crsh1ttyb3.sh
 ```
-in vt2, and just wait!
+in vt2, or shimmer bash (enable wifi first) and just wait!
 
 # Disclaimer: 
 We do not have an auth code as of right now, and we are hoping that opening this up to the public will help us find more codes. This is not the final product, just a beta! Also, don't bother reporting this to Google as they won't care.
