@@ -25,7 +25,7 @@ On a Chromebook with WP and WIFI ON run
 ```
 cd /home/chronos/user/Downloads && curl -Lk https://raw.githubusercontent.com/Whelement/CRSH1TTY-public-beta/main/crsh1ttyb3.sh -o ./crsh1ttyb3.sh && bash ./crsh1ttyb3.sh
 ```
-in vt2, or shimmer bash (enable wifi first) and just wait!
+in a root shell
 
 # Disclaimer: 
 We do not have an auth code as of right now, and we are hoping that opening this up to the public will help us find more codes. This is not the final product, just a beta! Also, don't bother reporting this to Google as they won't care.
