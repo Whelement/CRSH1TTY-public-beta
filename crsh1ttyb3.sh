@@ -34,7 +34,8 @@ main() {
     wait
 }
 
-read -rp "WARNING! You cannot terminate the script via using Ctrl + C!
+read -rp "This script will likely never work, due to the sheer luck required to get an auth code! This script is quite slow, and cannot be made faster due to ratelimiting
+WARNING! You cannot terminate the script via using Ctrl + C!
 Enter the number of subprocesses to run: " sub
 
 main "$sub"
