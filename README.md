@@ -1,3 +1,9 @@
+# CRSH1TTY is no longer supported!
+
+After digging around in [Chromium Code Search](https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/platform/cr50/common/rma_auth.c), we have found that the CR50 is far more rate limited than we expected, and it just lies about it. This means that CRSH1TTY most likely will NOT work at all, and all hope is lost.
+
+## Original README below
+
 [![Discord](https://img.shields.io/discord/1185734208065380455?link=https%3A%2F%2Fdiscord.gg%2FBK853xQSrg)](https://discord.gg/BK853xQSrg)![GitHub commit activity](https://img.shields.io/github/commit-activity/t/Whelement/CRSH1TTY-public-beta)![GitHub issues](https://img.shields.io/github/issues/Whelement/CRSH1TTY-public-beta)![GitHub contributors](https://img.shields.io/github/contributors/Whelement/CRSH1TTY-public-beta)![GitHub pull requests](https://img.shields.io/github/issues-pr/Whelement/CRSH1TTY-public-beta)
 ![CRSH1TTY logo](/logo.png)
 <!---```
